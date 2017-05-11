@@ -1,15 +1,15 @@
 import React from 'react';
 
 import AddTodo from './AddTodo.jsx';
-import TodoList from './TodoList.jsx';
+import VisibleTodoList from './VisibleTodoList.jsx';
 import Footer from './Footer.jsx';
 
-const TodoApp = () => (
+const App = () => (
   <div>
     <AddTodo />
-    <TodoList />
+    <VisibleTodoList />
     <Footer />
   </div>
 );
 
-export default TodoApp;
+export default App;
